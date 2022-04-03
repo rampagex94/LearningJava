@@ -49,9 +49,11 @@ public class Main {
         System.out.println("The multiplication of the numbers is: " + mul(5,5));
         System.out.println("The division of the numbers is: " + div(10,5));
         System.out.println();
+
 //  LAB10 ex3.
         JAVA();
         System.out.println();
+
 //  LAB10 ex4
 
 
