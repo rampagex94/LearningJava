@@ -5,6 +5,9 @@ public class Main3 {
     public static void main(String[] args) {
 
 
+
+
+
 //       System.out.println(getMax(12,41));
 //
 //       System.out.println(verifyTextFastTrack("FastTrack"));
@@ -34,7 +37,6 @@ public class Main3 {
         if (snow > 8 && snow == 6){
             return "The amount of snow this winter was:" + snow + "cm";
         }else {
-
             return "The forecast snow  is" + snow + "cm";
         }
     }

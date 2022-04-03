@@ -55,7 +55,8 @@ public class Main {
         System.out.println();
 
 //  LAB10 ex4
-
+        System.out.println(method(8,5,13));
+        System.out.println();
 
 //  LAB10 ex5.
         robot();
@@ -161,10 +162,15 @@ public class Main {
     }
 
     public static void JAVA(){
-        System.out.println("    J    a   V   V   a");
-        System.out.println("    J   a a   V V   a a");
-        System.out.println("J   J  aaaaa   VV  aaaaa");
-        System.out.println("  JJ  a     a   V  a    a");
+        System.out.println("    J    a  V     V  a");
+        System.out.println("    J   a a  V   V  a a");
+        System.out.println("J   J  aaaaa  VVV  aaaaa");
+        System.out.println(" JJJ  a     a  V  a     a");
+    }
+
+    public static double method(double nOne, double ntwo, double nthree){
+        double result = nOne % ntwo % nthree;
+        return result;
     }
 
     public static void robot(){
