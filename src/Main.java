@@ -55,7 +55,7 @@ public class Main {
         System.out.println();
 
 //  LAB10 ex4
-        System.out.println(method(8,5,13));
+        System.out.println(method(8.3,5.6,13.2));
         System.out.println();
 
 //  LAB10 ex5.
@@ -160,6 +160,7 @@ public class Main {
         int result = one / two;
         return result;
     }
+
 
     public static void JAVA(){
         System.out.println("    J    a  V     V  a");
