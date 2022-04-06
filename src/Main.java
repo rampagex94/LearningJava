@@ -198,7 +198,7 @@ public class Main {
         return centimeter;
     }
 
-    // Sa-mi spui te rog cum se poate face aici sa returnez cele 3 valori (mps,kph si mph), dupa cate am cautat nu se poate returna mai mult de o valoare, sa mi confirmi de rog daca este asa.
+    // Sa-mi spui te rog cum se poate face aici sa returnez cele 3 valori (mps,kph si mph), dupa cate am cautat nu se poate returna mai mult de o valoare, sa mi confirmi te rog daca este asa.
 //  Atunci unica solutie la exercitiul acesta este optiunea cu scanerul, sau array, nu?
 //
 //    public static double speed(){
