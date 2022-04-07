@@ -9,6 +9,11 @@ public class Dog {
     String race = "doberman";
     String name = "Athena";
     boolean isFemale = true;
+    int health = 8;
+    int hunger = 6;
+    int mood = 10;
+    String favFood = "turkey";
+    String favHobby = "chasing ball";
 
     public void eat (){
         System.out.println("Eating dog food");
