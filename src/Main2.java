@@ -18,6 +18,7 @@ public class Main2 {
 
         double result4 = divide (357, 22);
         System.out.println(result4);
+
     }
 
 
