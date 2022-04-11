@@ -33,6 +33,10 @@ public class AppMain {
         System.out.println("Veterinarian's name is " + Jack.name);
         System.out.println("Jack's speciality is " + Jack.speciality);
 
+        Hobby Fetch = new Hobby ();
+
+        System.out.println("The dog's favourite hobby is to play fetch");
+
 
 
 //       constantin.name = "Trex";
