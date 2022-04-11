@@ -17,12 +17,13 @@ public class Main3 {
         LogicalOperations op = new LogicalOperations ();
         int biggest = op.checkBiggerNumber(5,3);
         System.out.println("The bigger number is " +biggest);
-        System.out.println(op.checkText("FastTrackIT"));
-        System.out.println(op.verifyTextAndNumber(text, number));
+        System.out.println(op.correctText("FastTrackIT"));
+        System.out.println(op.checkTextAndNumber(text, number));
         System.out.println(op.Amount(9));
-        System.out.println(op.greaterThen(4));
-
-
+        System.out.println(op.bigAndSmall(4));
+        System.out.println(op.isNumberEven(3));
+        System.out.println(op.isEligibleToVote(19));
+        System.out.println(op.giveBiggestNumber(16,33,32));
 
     }
 }
