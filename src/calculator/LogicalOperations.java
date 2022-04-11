@@ -54,7 +54,21 @@ public class LogicalOperations {
     }
 
     //8.
-
+    public void printNumber (int number) {
+        switch (number) {
+            case 0 -> System.out.println("The number is 0");
+            case 1 -> System.out.println("The number is 1");
+            case 2 -> System.out.println("The number is 2");
+            case 3 -> System.out.println("The number is 3");
+            case 4 -> System.out.println("The number is 4");
+            case 5 -> System.out.println("The number is 5");
+            case 6 -> System.out.println("The number is 6");
+            case 7 -> System.out.println("The number is 7");
+            case 8 -> System.out.println("The number is 8");
+            case 9 -> System.out.println("The number is 9");
+            default -> System.out.println("Error");
+        }
+    }
 
     //9.
     public boolean isNumberEven(int number) {

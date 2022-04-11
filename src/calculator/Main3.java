@@ -24,6 +24,8 @@ public class Main3 {
         System.out.println(op.isNumberEven(3));
         System.out.println(op.isEligibleToVote(19));
         System.out.println(op.giveBiggestNumber(16,33,32));
+        op.printNumber(6);
+
 
     }
 }
