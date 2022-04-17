@@ -4,20 +4,25 @@ public class AppMain {
 
     public static void main(String[] args) {
 
-//       Dog Athena = new Dog();
+//   Dog Athena = new Dog();
      Dog dog = new Dog();
      dog.setColor("black");
      dog.setWeight(29);
-     dog.setageInMonths(36);
-     dog.setownerName("Lisa");
-     dog.setrace("Dobermann");
-     dog.setname("Athena");
-     dog.setisFemale("True");
-     dog.sethealth(10);
-     dog.sethunger(8);
-     dog.setmood(8);
-     dog.setfavFood("Chicken");
-     dog.setfavHobby("Fetch");
+     dog.setAgeInMonths(36);
+     dog.setOwnerName("Lisa");
+     dog.setRace("Dobermann");
+     dog.setName("Athena");
+     dog.setIsFemale(true);
+     dog.setHealth(10);
+     dog.setHunger(8);
+     dog.setMood(8);
+     dog.setFavFood("Chicken");
+     dog.setFavHobby("Fetch");
+
+       System.out.println(dog.getFavFood());
+       System.out.println("The dog's mood on a scale from 1 to 10 is " + dog.getMood());
+       System.out.println("The dog's owner name is " + dog.getOwnerName());
+
 
 //        System.out.println("Varsta catelului este de " + Athena.ageInMonths + " de luni");
 //        System.out.println("The dog's weight is " + Athena.weight + " kilograms");
