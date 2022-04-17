@@ -4,8 +4,6 @@ public class AppMain {
 
     public static void main(String[] args) {
 
-    Dog Athena = new Dog();
-
         Dog dog = new Dog();
         dog.setColor("black");
         dog.setWeight(29);
