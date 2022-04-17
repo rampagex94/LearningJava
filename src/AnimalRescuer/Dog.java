@@ -18,117 +18,129 @@ public class Dog {
 // Getters and Setters beginning
 
     // color
-    public String getColor(){
+    public String getColor() {
         return this.color; // this. keyword will be making reference to the class level attribute
     }
-    public void setColor(String color){
+
+    public void setColor(String color) {
         this.color = color;
     }
 
     //weight
-    public double getWeight(){
+    public double getWeight() {
         return this.weight;
     }
-    public void setWeight(double weight){
+
+    public void setWeight(double weight) {
         this.weight = weight;
     }
 
     //ageInMonths
-    public int getAgeInMonths(){
+    public int getAgeInMonths() {
         return this.ageInMonths;
     }
-    public void setAgeInMonths(int ageInMonths){
+
+    public void setAgeInMonths(int ageInMonths) {
         this.ageInMonths = ageInMonths;
     }
 
     //ownerName
-    public String getOwnerName(){
+    public String getOwnerName() {
         return this.ownerName;
     }
-    public void setOwnerName(String ownerName){
+
+    public void setOwnerName(String ownerName) {
         this.ownerName = ownerName;
     }
 
     //race
-    public String getRace(){
+    public String getRace() {
         return this.race;
     }
-    public void setRace(String race){
+
+    public void setRace(String race) {
         this.race = race;
     }
 
     //name
-    public String getName(){
+    public String getName() {
         return this.name;
     }
-    public void setName (String name){
+
+    public void setName(String name) {
         this.name = name;
     }
 
     //isFemale
-    public boolean getIsFemale(){
+    public boolean getIsFemale() {
         return this.isFemale;
     }
 
-    public void setIsFemale(boolean isFemale){
+    public void setIsFemale(boolean isFemale) {
         this.isFemale = isFemale;
     }
 
     //health
-    public int getHealth(){
+    public int getHealth() {
         return this.health;
     }
-    public void setHealth(int health){
+
+    public void setHealth(int health) {
         this.health = health;
     }
 
     //hunger
-    public int getHunger(){
+    public int getHunger() {
         return this.hunger;
     }
-    public void setHunger(int hunger){
+
+    public void setHunger(int hunger) {
         this.hunger = hunger;
     }
 
     //mood
-    public int getMood (){
+    public int getMood() {
         return this.mood;
     }
-    public void setMood(int mood){
+
+    public void setMood(int mood) {
         this.mood = mood;
     }
 
     //favfood
-    public String getFavFood(){
+    public String getFavFood() {
         return this.favFood;
     }
-    public void setFavFood(String favFood){
+
+    public void setFavFood(String favFood) {
         this.favFood = favFood;
     }
 
     //favhobby
-    public String getFavHobby(){
+    public String getFavHobby() {
         return this.favHobby;
     }
-    public void setFavHobby(String favHobby){
+
+    public void setFavHobby(String favHobby) {
         this.favHobby = favHobby;
     }
 
+//    Getters and Setters end
 
-// Getters and Setters end
-    public void eat (){
+
+    public void eat() {
         System.out.println("Eating dog food");
     }
 
-    public void sleep(){
+    public void sleep() {
         System.out.println("zZzZzzZz");
     }
 
-    public void run(){
+    public void run() {
         System.out.println("Running");
     }
 
-    public void play(){
+    public void play() {
         System.out.println("Playing");
     }
 }

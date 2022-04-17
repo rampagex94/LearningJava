@@ -1,7 +1,24 @@
 package AnimalRescuer;
 
 public class Girl {
-  String ownerName = "Lisa";
-  int availableCash = 500;
+  private String ownerName;
+  private int availableCash;
+
+  public String getOwnerName(){
+   return this.ownerName;
+  }
+  public void setOwnerName(String ownerName){
+    this.ownerName = ownerName;
+  }
+
+ public int getAvailableCash(){
+    return this.availableCash;
+ }
+ public void setAvailableCash(int availableCash){
+    this.availableCash = availableCash;
+ }
 
 }
+
+
+
