@@ -4,6 +4,7 @@ public class Veterinarian {
    private String name;
    private String speciality;
 
+   // Getters and Setters beginning
    public String getName(){
       return this.name;
    }
@@ -17,5 +18,7 @@ public class Veterinarian {
    public void setSpeciality(String speciality){
       this.speciality = speciality;
    }
+//    Getters and Setters end
+
 }
 

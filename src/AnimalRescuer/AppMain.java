@@ -30,10 +30,6 @@ public class AppMain {
         girl.setOwnerName("Lisa");
         girl.setAvailableCash(500);
 
-
-        Hobby hobby = new Hobby();
-        hobby.setHobby("Fetch");
-
         Veterinarian veterinarian = new Veterinarian();
         veterinarian.setName("Jack");
         veterinarian.setSpeciality("Veterinarian");
@@ -55,10 +51,9 @@ public class AppMain {
         System.out.println("The bowl quantity is " + dogfood.getFoodQuantity() + " grams");
         System.out.println("The dog's owner name is " + girl.getOwnerName());
         System.out.println("Lisa has got " + girl.getAvailableCash() + "$ available for veterinarian care");
-
         System.out.println("Veterinarian's name is " + veterinarian.getName());
         System.out.println("Jack's speciality is " + veterinarian.getSpeciality());
-        System.out.println("The dog's favourite hobby is to play" + hobby.getHobby());
+        System.out.println("The dog's favourite hobby is to play " + dog.getFavHobby());
 
 
     }

@@ -4,6 +4,7 @@ public class Girl {
   private String ownerName;
   private int availableCash;
 
+    // Getters and Setters beginning
   public String getOwnerName(){
    return this.ownerName;
   }
@@ -17,6 +18,7 @@ public class Girl {
  public void setAvailableCash(int availableCash){
     this.availableCash = availableCash;
  }
+//    Getters and Setters end
 
 }
 

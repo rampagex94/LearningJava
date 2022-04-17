@@ -35,9 +35,5 @@ public class DogFood {
    public void setFoodStock(boolean foodStock){
        this.foodStock = foodStock;
    }
-
-
-
-
-// Getters and Setters end
+//    Getters and Setters end
 }
