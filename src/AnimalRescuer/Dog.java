@@ -2,19 +2,58 @@ package AnimalRescuer;
 
 public class Dog {
 
-    String color = "black";
-    double weight = 23.5;
-    int ageInMonths = 24;
-    String ownerName = "Lisa";
-    String race = "doberman";
-    String name = "Athena";
-    boolean isFemale = true;
-    int health = 8;
-    int hunger = 6;
-    int mood = 10;
-    String favFood = "turkey";
-    String favHobby = "chasing ball";
+    private String color;
+    private double weight;
+    private int ageInMonths;
+    private String ownerName;
+    private String race;
+    private String name;
+    private boolean isFemale;
+    private int health;
+    private int hunger;
+    private int mood;
+    private String favFood;
+    private String favHobby;
 
+// Getters and Setters beginning
+
+    public String getColor(){
+        return this.color; // this. keyword will be making reference to the class level attribute
+    }
+    public void setColor(String color){
+        this.color = color;
+    }
+
+    public double getWeight(){
+        return this.weight;
+    }
+    public void setWeight(double weight){
+        this.weight = weight;
+    }
+
+    public int getageInMonths(){
+        return this.ageInMonths;
+    }
+    public void setageInMonths(int ageInMonths){
+        this.ageInMonths = ageInMonths;
+    }
+
+    public String getownerName(){
+        return this.ownerName;
+    }
+    public void setownerName(String ownerName){
+        this.ownerName = ownerName;
+    }
+
+    public String getrace(){
+        return this.race;
+    }
+    public void setrace(String race){
+        this.race = race;
+    }
+
+
+// Getters and Setters end
     public void eat (){
         System.out.println("Eating dog food");
     }

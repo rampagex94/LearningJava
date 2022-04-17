@@ -1,8 +1,6 @@
 public class Main2 {
     static int memberVariable = 3;
 
-
-
     public static void main(String[] args) {
 
 //        double result = sum(memberVariable, 3.2);
@@ -21,11 +19,5 @@ public class Main2 {
 
     }
 
+    }
 
-
-
-
-
-
-
-}
