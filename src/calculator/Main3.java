@@ -14,6 +14,7 @@ public class Main3 {
 //        System.out.println(calc.div(20,5));
 //        System.out.println(calc.mul(5,5));
 
+        // Tema if else
 //        int biggest = op.checkBiggerNumber(5,3);
 //        System.out.println("The bigger number is " +biggest);
 //        System.out.println(op.correctText("FastTrackIT"));
@@ -30,6 +31,21 @@ public class Main3 {
           op.count(0);
           op.count2(8,53);
           op.count3(6,15);
+          op.pare();
+          op.impare();
+          System.out.println(op.sum(1));
+          System.out.println(op.media(1));
+          op.asterisc();
+          op.count1(84);
+          op.count2(-83);
+          op.countBetween(3,20);
+          op.countBetween2(9,15);
+          op.pare1();
+          op.impare1();
+          op.sum();
+          System.out.println(op.divide7(131,637));
+          op.fibonacci();
+          op.cozaLozaWoza();
 
     }
 }
