@@ -2,6 +2,45 @@ package calculator;
 
 public class LogicalOperations {
 
+    //Tema For Loops
+    //1.
+    public void count100(int a){
+        for (int b = a; b <= 100; b++){
+            System.out.println(b);
+        }
+    }
+
+    //2.
+    public void count(int a){
+        for (int b = a; b >= -100; b--){
+            System.out.println(b);
+        }
+    }
+
+    //3.
+    public  void count2(int a, int b){
+        for (int x = a; x <= b; x++){
+            System.out.println(x);
+        }
+       for (int x = a; x >= b; x--) {
+           System.out.println(x);
+       }
+    }
+    //4.
+    public void count3(int a, int b){
+        if(a < b){
+            for(int x = a; x <= b; x++){
+                System.out.println(x);
+            }
+        }else if (a > b) {
+            for (int x = b; x <= a; x++){
+                System.out.println(x);
+            }
+        }
+    }
+
+    //5.
+
     //  3.
     public int checkBiggerNumber(int first, int second) {
         if (first > second) {
