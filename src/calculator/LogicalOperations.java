@@ -42,12 +42,11 @@ public class LogicalOperations {
 
     //5.
     public void pare() {
-        for (int x = 0; x <= 100; x++) {
-            if (x % 2 == 0) {
+        for (int x = 0; x <= 100; x=x+2) {
                 System.out.println(x);
             }
         }
-    }
+
 
     //6.
     public void impare() {
@@ -56,7 +55,7 @@ public class LogicalOperations {
                 System.out.println(x);
             }
         }
-    }
+
 
     //7.
     public int sum(int a) {
