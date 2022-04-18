@@ -55,7 +55,7 @@ public class LogicalOperations {
                 System.out.println(x);
             }
         }
-
+    }
 
     //7.
     public int sum(int a) {
