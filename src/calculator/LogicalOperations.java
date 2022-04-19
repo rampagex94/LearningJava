@@ -47,7 +47,6 @@ public class LogicalOperations {
             }
         }
 
-
     //6.
     public void impare() {
         for (int x = 0; x <= 100; x++) {
