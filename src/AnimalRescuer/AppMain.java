@@ -53,9 +53,22 @@ public class AppMain {
         System.out.println("Jack's speciality is " + veterinarian.getSpeciality());
         System.out.println("The dog's favourite hobby is to play " + dog.getFavHobby());
 
+        Dog rudolf = new Dog();
+        rudolf.setName("Bronx");
+        System.out.println(rudolf.getName());
+
+        Girl Lisa = new Girl();
+        Lisa.setAvailableCash(300);
+        System.out.println(Lisa.getAvailableCash());
+
+        Veterinarian Jack = new Veterinarian();
+        Jack.setSpeciality("Veterinarian");
+        System.out.println("Jack is a " + Jack.getSpeciality());
+
+        Person liv = new Person ();
+        liv.setName("Lisa");
+        System.out.println("Her name is " + liv.getName());
 
     }
-
-
 }
 

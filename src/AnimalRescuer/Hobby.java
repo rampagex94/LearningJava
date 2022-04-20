@@ -1,15 +1,6 @@
 package AnimalRescuer;
 
-public class Hobby {
-  private String hobby;
+public class Hobby extends Dog{
 
-  // Getters and Setters beginning
-  public String getHobby(){
-    return this.hobby;
-  }
-  public void setHobby(String hobby){
-    this.hobby = hobby;
-  }
-//    Getters and Setters end
 
 }

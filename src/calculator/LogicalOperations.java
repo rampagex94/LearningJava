@@ -42,10 +42,10 @@ public class LogicalOperations {
 
     //5.
     public void pare() {
-        for (int x = 0; x <= 100; x=x+2) {
-                System.out.println(x);
-            }
+        for (int x = 0; x <= 100; x = x + 2) {
+            System.out.println(x);
         }
+    }
 
     //6.
     public void impare() {
@@ -128,9 +128,9 @@ public class LogicalOperations {
     }
 
     //5.
-    public void pare1(){
+    public void pare1() {
         int x = 1;
-        while (x <= 100){
+        while (x <= 100) {
             x++;
             if (x % 2 == 0) {
                 System.out.println(x);
@@ -139,9 +139,9 @@ public class LogicalOperations {
     }
 
     //6.
-    public void impare1(){
+    public void impare1() {
         int x = 1;
-        while (x <= 100){
+        while (x <= 100) {
             x++;
             if (x % 2 != 0) {
                 System.out.println(x);
@@ -150,7 +150,7 @@ public class LogicalOperations {
     }
 
     //7.
-    public void sum(){
+    public void sum() {
         int x = 111;
         int y = 8899;
         double sum = 0;
@@ -158,7 +158,8 @@ public class LogicalOperations {
 
         while (x <= y) {
             sum += x;
-            x++; count++;
+            x++;
+            count++;
         }
         System.out.println(sum);
         double media = sum / count;
@@ -166,10 +167,10 @@ public class LogicalOperations {
     }
 
     //8.
-    public double divide7 (int x, int y){
+    public double divide7(int x, int y) {
         int count = 0;
         int sum = 0;
-        while (x <= y){
+        while (x <= y) {
             if (x % 7 == 0) {
                 count++;
                 sum += x;
@@ -181,7 +182,7 @@ public class LogicalOperations {
     }
 
     //9.
-    public void fibonacci(){
+    public void fibonacci() {
         int count = 20;
         int num1 = 0;
         int num2 = 1;
@@ -197,7 +198,7 @@ public class LogicalOperations {
     }
 
     //10.
-    public void cozaLozaWoza(){
+    public void cozaLozaWoza() {
         int i = 1;
         while (i <= 110) {
 
