@@ -7,6 +7,7 @@ public class Main3 {
         LogicalOperations op = new LogicalOperations ();
         Calculator calc = new Calculator ();
 
+
 //       String text = "FastTrackIT";
 //       int number = 9;
 //        System.out.println(calc.sum(2,3.5));
@@ -27,25 +28,33 @@ public class Main3 {
 //        op.printNumber(6);
 
 //        Tema For Loops
-          op.count100(0);
-          op.count(0);
-          op.count2(8,53);
-          op.count3(6,15);
-          op.pare();
-          op.impare();
-          System.out.println(op.sum(1));
-          System.out.println(op.media(1));
-          op.asterisc();
-          op.count1(84);
-          op.count2(-83);
-          op.countBetween(3,20);
-          op.countBetween2(9,15);
-          op.pare1();
-          op.impare1();
-          op.sum();
-          System.out.println(op.divide7(131,637));
-          op.fibonacci();
-          op.cozaLozaWoza();
+//          op.count100(0);
+//          op.count(0);
+//          op.count2(8,53);
+//          op.count3(6,15);
+//          op.pare();
+//          op.impare();
+//          System.out.println(op.sum(1));
+//          System.out.println(op.media(1));
+//          op.asterisc();
+//          op.count1(84);
+//          op.count2(-83);
+//          op.countBetween(3,20);
+//          op.countBetween2(9,15);
+//          op.pare1();
+//          op.impare1();
+//          op.sum();
+//          System.out.println(op.divide7(131,637));
+//          op.fibonacci();
+//          op.cozaLozaWoza();
+//          System.out.println();
+
+//        Tema Arrays
+            op.countto100(100);
+
+
+
+
 
     }
 }
