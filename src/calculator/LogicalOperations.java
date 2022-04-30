@@ -8,7 +8,7 @@ public class LogicalOperations {
         int[] myArray = new int[max];
         for (int i = 0; i < myArray.length; i++) {
             myArray[i] = i + 1;
-            System.out.print(myArray[i] + ", ");
+            System.out.println(myArray[i]);
         }
     }
 

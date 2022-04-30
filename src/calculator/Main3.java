@@ -39,6 +39,9 @@ public class Main3 {
 //          System.out.println(op.sum(1));
 //          System.out.println(op.media(1));
 //          op.asterisc();
+//          System.out.println();
+//
+//       Tema while loops
 //          op.count1(84);
 //          op.count2(-83);
 //          op.countBetween(3,20);
@@ -53,7 +56,18 @@ public class Main3 {
 
 //        Tema Arrays
            op.countto100(100);
-        System.out.println(op.getEvenArrayToHundred();
+
+           int[] getEvenArrayToHundred = new int[50];
+           int pos = 0;
+           for (int i = 1 ; i < 100; i++){
+               if (i % 2 == 0){
+                 getEvenArrayToHundred[pos] = i;
+                 pos++;
+               }
+           }
+
+
+
 
 
 
