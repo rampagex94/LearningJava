@@ -10,11 +10,12 @@ public class Main2 {
         System.out.println(result2);
 
         int result3 = mul(5,5);
-        System.out.println(result3);
-        //     System.out.println("The result is: " + multiply(5,5));
+       System.out.println(result3);
+       System.out.println("The result is: " + mul(5,5));
 
         double result4 = div (357, 22.3);
         System.out.println(result4);
+
 
     }
 
@@ -33,6 +34,7 @@ public class Main2 {
     public static double div (int a, double b){
         return a / b;
     }
+
 
 
 }

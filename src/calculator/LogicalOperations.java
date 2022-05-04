@@ -2,9 +2,10 @@ package calculator;
 
 public class LogicalOperations {
 
-    //Tema Arrays
+
+     //Tema Arrays
     //2.
-    public static void countto100(int max) {
+    public void countTo100(int max) {
         int[] myArray = new int[max];
         for (int i = 0; i < myArray.length; i++) {
             myArray[i] = i + 1;

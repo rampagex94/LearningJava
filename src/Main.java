@@ -7,7 +7,7 @@ public class Main {
 //  Tema introducere in java
 //  ex 1. Printati "Hello" in consola, iar pe rand nou, printati numele vostru.
         System.out.println("Hello \n" + "Silviu");
-        System.out.println();
+        System.out.println("Hello World");
 
 // ex 2. Printati rezultatul sumei a doua numere(orice numere)
         System.out.println(5 + 5);
