@@ -1,16 +1,31 @@
 package calculator;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LogicalOperations {
 
 
-
     //Tema Lists
+    public List<Integer> getList() {
+        List<Integer> myList = new ArrayList<>();
+        for (int i = 0; i < 100; i++) {
+            myList.add(i + 1);
+        }
+        return myList;
+    }
+
+    //3.
+    public void printListFromInput (List<Integer> list, int number){
+
+    }
 
 
-     //Tema Arrays
-    public void printArray(int[] array){
-        for (int i = 0; i < array.length; i++){
-            System.out.println(array[i]+", ");
+
+    //Tema Arrays
+    public void printArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i] + ", ");
         }
     }
 
@@ -19,7 +34,7 @@ public class LogicalOperations {
         int[] myArray = new int[max];
         for (int i = 0; i < myArray.length; i++) {
             myArray[i] = i + 1;
-            System.out.println(myArray[i]);
+            System.out.print(myArray[i] + ", ");
         }
     }
 
@@ -91,9 +106,9 @@ public class LogicalOperations {
     //9.
     public int getSecondSmallestNrInArray(int[] myArray) {
         int temporary = 0;
-        for(int i = 0; i< myArray.length;i++){
-            for(int j = i + 1;j<myArray.length;j++){
-                if(myArray[i] > myArray[j]){
+        for (int i = 0; i < myArray.length; i++) {
+            for (int j = i + 1; j < myArray.length; j++) {
+                if (myArray[i] > myArray[j]) {
                     temporary = myArray[j];
                     myArray[j] = myArray[i];
                     myArray[i] = temporary;
@@ -111,8 +126,6 @@ public class LogicalOperations {
         }
         return emptyArray;
     }
-
-
 
 
     //Tema For Loops

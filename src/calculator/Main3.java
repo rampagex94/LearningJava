@@ -7,8 +7,8 @@ public class Main3 {
 
     public static void main(String[] args) {
 
-        LogicalOperations op = new LogicalOperations ();
-        Calculator calc = new Calculator ();
+        LogicalOperations op = new LogicalOperations();
+        Calculator calc = new Calculator();
 
 
 //       String text = "FastTrackIT";
@@ -19,7 +19,7 @@ public class Main3 {
 //        System.out.println(calc.mul(5,5));
 //
 ////         Tema if else
-          int biggest = op.checkBiggerNumber(5,3);
+        int biggest = op.checkBiggerNumber(5, 3);
 //        System.out.println("The bigger number is " +biggest);
 //        System.out.println(op.correctText("FastTrackIT"));
 //        System.out.println(op.checkTextAndNumber(text, number));
@@ -57,10 +57,17 @@ public class Main3 {
 
 //        Tema Arrays
 
-           op.countTo100(100);
-           op.drawLines();
+        op.countTo100(100);
+        System.out.println();
+        op.drawLines();
+        System.out.println();
 
 //         Tema Lists
+
+        List<Integer> integerList = op.getList();
+
+
+
     }
 
 
