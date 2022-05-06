@@ -3,7 +3,17 @@ package calculator;
 public class LogicalOperations {
 
 
+
+    //Tema Lists
+
+
      //Tema Arrays
+    public void printArray(int[] array){
+        for (int i = 0; i < array.length; i++){
+            System.out.println(array[i]+", ");
+        }
+    }
+
     //2.
     public void countTo100(int max) {
         int[] myArray = new int[max];

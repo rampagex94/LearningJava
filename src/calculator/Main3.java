@@ -56,13 +56,12 @@ public class Main3 {
 //          System.out.println();
 
 //        Tema Arrays
+
            op.countTo100(100);
            op.drawLines();
 
-
-
-
-        }
+//         Tema Lists
+    }
 
 
 }
