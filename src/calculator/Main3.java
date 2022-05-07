@@ -19,7 +19,7 @@ public class Main3 {
 //        System.out.println(calc.mul(5,5));
 //
 ////         Tema if else
-        int biggest = op.checkBiggerNumber(5, 3);
+//        int biggest = op.checkBiggerNumber(5, 3);
 //        System.out.println("The bigger number is " +biggest);
 //        System.out.println(op.correctText("FastTrackIT"));
 //        System.out.println(op.checkTextAndNumber(text, number));
@@ -57,14 +57,21 @@ public class Main3 {
 
 //        Tema Arrays
 
-        op.countTo100(100);
-        System.out.println();
-        op.drawLines();
-        System.out.println();
+//        int[] myArray = op.printArray(int[] array);
+//        op.countTo100(100); // <- Arrays ex 2
+//        System.out.println();
+//        op.drawLines(); // <- Arrays ex 7
+//        System.out.println();
 
 //         Tema Lists
 
         List<Integer> integerList = op.getList();
+        op.printList(integerList); // <- Lists ex 1
+        System.out.println();
+
+        System.out.println();
+        op.printListFromInput(integerList,75); // <- Lists ex 3
+
 
 
 

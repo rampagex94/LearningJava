@@ -9,16 +9,26 @@ public class LogicalOperations {
     //Tema Lists
     public List<Integer> getList() {
         List<Integer> myList = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
+        for (int i = -1; i <100 ; i++) {
             myList.add(i + 1);
         }
         return myList;
     }
 
+    //1.
+    public void printList(List<Integer> List) {
+        for (int i = 0; i <List.size(); i++) {
+            System.out.println(List.get(List.get(i)));
+        }
+    }
+
     //3.
     public void printListFromInput (List<Integer> list, int number){
-
+       for (int i = number; i < list.size(); i++){
+           System.out.println(list.get(i));
+       }
     }
+
 
 
 
