@@ -193,4 +193,9 @@ public class Animal {
     public void angry() {
         System.out.println("GRrrr Hof Hof");
     }
+
+    public void name(){
+        System.out.println("WooF WooF, my name is Athena");
+    }
+
 }
