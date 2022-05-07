@@ -68,9 +68,18 @@ public class Main3 {
         List<Integer> integerList = op.getList();
         op.printList(integerList); // <- Lists ex 1
         System.out.println();
-
+        op.lastNumberToList(integerList, 4); // <- Lists ex 2
         System.out.println();
         op.printListFromInput(integerList,75); // <- Lists ex 3
+        System.out.println();
+        List<Integer> descendantList = op.getList();
+        op.printListDescendant(descendantList); // <- Lists ex 4
+        System.out.println();
+        List<Integer> printListContent = op.getList();
+        op.printListContent(printListContent); // <- Lists ex 7
+        System.out.println();
+        List<Integer> biggestNumberInList = op.getList();
+        System.out.println(op.getBiggestValueFromList(op.getList())); // <- Lists ex 8
 
 
 

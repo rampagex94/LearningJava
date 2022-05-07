@@ -7,6 +7,7 @@ public class LogicalOperations {
 
 
     //Tema Lists
+
     public List<Integer> getList() {
         List<Integer> myList = new ArrayList<>();
         for (int i = -1; i <100 ; i++) {
@@ -22,15 +23,52 @@ public class LogicalOperations {
         }
     }
 
+    //2.
+    public void lastNumberToList (List<Integer> List, int number){
+        List.add(number);
+    }
+
     //3.
-    public void printListFromInput (List<Integer> list, int number){
-       for (int i = number; i < list.size(); i++){
-           System.out.println(list.get(i));
+    public void printListFromInput (List<Integer> List, int number){
+       for (int i = number; i < List.size(); i++){
+           System.out.println(List.get(i));
        }
     }
 
+    //4.
+    public void printListDescendant (List<Integer> List){
+        for (int i = List.size() -1; i >= 0; i--){
+            System.out.println(List.get(i));
+        }
+    }
 
+    //5.
+    public void stringList(List<String> List, int number, String text){
+        List.add(number, text);
+    }
 
+    //6.
+    public void secondParametertoFirstPos(List<Integer> List, int number){
+        List.add(3, number);
+    }
+
+    //7.
+    public void printListContent (List<Integer> List){
+        for (int i = 0; i < List.size(); i++) {
+            System.out.println("Pe pozitia " +i+ " valoarea este " + List.get(i));
+        }
+    }
+
+    //8.
+    public int getBiggestValueFromList (List<Integer> myList){
+        int biggest = myList.get(0);
+        for (int i=0 ; i<myList.size(); i++){
+            if (myList.get(i)>biggest){
+                biggest = myList.get(i);
+            }
+        }
+        return biggest;
+    }
 
     //Tema Arrays
     public void printArray(int[] array) {
