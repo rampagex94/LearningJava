@@ -77,6 +77,8 @@ public class AppMain {
         doggy.talk();
         AmericanStanford doggo = new AmericanStanford();
         doggo.talk();
+        girl.talk();
+        veterinarian.talk();
 
     }
 }
