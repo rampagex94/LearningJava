@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Animal {
+public abstract class Animal {
 
     private String color;
     private double weight;
@@ -15,12 +15,13 @@ public class Animal {
     private String favFood;
     private String favHobby;
 
-
+    //DogFood
     private String foodName; // = "Pedigree";
     private int foodPrice; // = 13;
     private double foodQuantity; // = 8.5;
     private boolean foodStock; //  = true;
 
+    //Hobby
     private String hobby;
 
     // Getters and Setters beginning
@@ -31,7 +32,6 @@ public class Animal {
     public void setHobby(String hobby) {
         this.hobby = hobby;
     }
-
 
     public String getFoodName() {
         return this.foodName;

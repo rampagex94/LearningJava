@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public abstract class Person {
+public class Person {
 
     private String ownerName;
     private int availableCash;
@@ -35,11 +35,12 @@ public abstract class Person {
     public void setAvailableCash(int availableCash){
         this.availableCash = availableCash;
     }
+    // Getters and Setters end
 
     public void talk() {
         System.out.println("Bla Bla");
     }
-//    Getters and Setters end
+
 
 
 
