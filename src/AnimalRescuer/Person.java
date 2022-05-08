@@ -36,7 +36,9 @@ public abstract class Person {
         this.availableCash = availableCash;
     }
 
-    public abstract void talk();
+    public void talk() {
+        System.out.println("Bla Bla");
+    }
 //    Getters and Setters end
 
 
