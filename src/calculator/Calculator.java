@@ -6,6 +6,10 @@ public class Calculator {
         return firstNumber + secondNumber;
     }
 
+    public int sum(int x, int y){
+          return x + y;
+    }
+
     public int sub(int firstNumber, int secondNumber){
         return firstNumber - secondNumber;
     }

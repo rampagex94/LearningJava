@@ -198,4 +198,9 @@ public class Animal {
         System.out.println("WooF WooF, my name is Athena");
     }
 
+    public void talk(){
+        System.out.println("sound");
+    }
+
+
 }

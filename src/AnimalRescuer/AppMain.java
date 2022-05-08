@@ -32,51 +32,51 @@ public class AppMain {
         veterinarian.setName("Jack");
         veterinarian.setSpeciality("Veterinarian");
 
-        System.out.println("The veterinarian's name is " + veterinarian.getName());
-        System.out.println("Varsta catelului este de " + dog.getAgeInMonths() + " de luni");
-        System.out.println("The dog's weight is " + dog.getWeight() + " kilograms");
-        System.out.println("The dog's color is " + dog.getColor());
-        System.out.println("The dog's owner name is" + dog.getOwnerName());
-        System.out.println("The dog's race is " + dog.getRace());
-        System.out.println("The dog's name is " + dog.getName());
-        System.out.println("From a scale from 1 to 10, dog's health is " + dog.getHealth());
-        System.out.println("From a scale from 1 to 10, dog's hunger is " + dog.getHunger());
-        System.out.println("From a scale from 1 to 10, dog's mood is " + dog.getMood());
-        System.out.println("The dog's favorite food is " + dog.getFavFood());
-        System.out.println("The dog's favorite hobby is " + dog.getFavHobby());
-        System.out.println("The dog loves the " + dogfood.getFoodName() + " brand");
-        System.out.println("The price for the food is " + dogfood.getFoodPrice() + "$");
-        System.out.println("The bowl quantity is " + dogfood.getFoodQuantity() + " grams");
-        System.out.println("The dog's owner name is " + girl.getOwnerName());
-        System.out.println("Lisa has got " + girl.getAvailableCash() + "$ available for veterinarian care");
-        System.out.println("Veterinarian's name is " + veterinarian.getName());
-        System.out.println("Jack's speciality is " + veterinarian.getSpeciality());
-        System.out.println("The dog's favourite hobby is to play " + dog.getFavHobby());
-
-        Dog Athena = new Dog();
-        Athena.setName("Bronx");
-        System.out.println(Athena.getName());
-
-        Girl Lisa = new Girl();
-        Lisa.setAvailableCash(300);
-        System.out.println(Lisa.getAvailableCash());
-
-        Veterinarian Jack = new Veterinarian();
-        Jack.setSpeciality("Veterinarian");
-        System.out.println("Jack is a " + Jack.getSpeciality());
-
-        Person liv = new Person ();
-        liv.setName("Lisa");
-        System.out.println("Her name is " + liv.getName());
+//        System.out.println("The veterinarian's name is " + veterinarian.getName());
+//        System.out.println("Varsta catelului este de " + dog.getAgeInMonths() + " de luni");
+//        System.out.println("The dog's weight is " + dog.getWeight() + " kilograms");
+//        System.out.println("The dog's color is " + dog.getColor());
+//        System.out.println("The dog's owner name is" + dog.getOwnerName());
+//        System.out.println("The dog's race is " + dog.getRace());
+//        System.out.println("The dog's name is " + dog.getName());
+//        System.out.println("From a scale from 1 to 10, dog's health is " + dog.getHealth());
+//        System.out.println("From a scale from 1 to 10, dog's hunger is " + dog.getHunger());
+//        System.out.println("From a scale from 1 to 10, dog's mood is " + dog.getMood());
+//        System.out.println("The dog's favorite food is " + dog.getFavFood());
+//        System.out.println("The dog's favorite hobby is " + dog.getFavHobby());
+//        System.out.println("The dog loves the " + dogfood.getFoodName() + " brand");
+//        System.out.println("The price for the food is " + dogfood.getFoodPrice() + "$");
+//        System.out.println("The bowl quantity is " + dogfood.getFoodQuantity() + " grams");
+//        System.out.println("The dog's owner name is " + girl.getOwnerName());
+//        System.out.println("Lisa has got " + girl.getAvailableCash() + "$ available for veterinarian care");
+//        System.out.println("Veterinarian's name is " + veterinarian.getName());
+//        System.out.println("Jack's speciality is " + veterinarian.getSpeciality());
+//        System.out.println("The dog's favourite hobby is to play " + dog.getFavHobby());
+//
+//        Dog Athena = new Dog();
+//        Athena.setName("Bronx");
+//        System.out.println(Athena.getName());
+//
+//        Girl Lisa = new Girl();
+//        Lisa.setAvailableCash(300);
+//        System.out.println(Lisa.getAvailableCash());
+//
+//        Veterinarian Jack = new Veterinarian();
+//        Jack.setSpeciality("Veterinarian");
+//        System.out.println("Jack is a " + Jack.getSpeciality());
+//
+//        Person liv = new Person ();
+//        liv.setName("Lisa");
+//        System.out.println("Her name is " + liv.getName());
 
         // Polymorphism
 
-        Lisa.talk();
-        Jack.talk();
-
-        Athena.name();
-        Lisa.name();
-        Jack.name();
+        Animal animal = new Animal();
+        animal.talk();
+        Dog doggy = new Dog();
+        doggy.talk();
+        AmericanStanford doggo = new AmericanStanford();
+        doggo.talk();
 
     }
 }
