@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class DogFood extends Dog{
+public abstract class DogFood extends Dog{
 
 
 }

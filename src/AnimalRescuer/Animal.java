@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Animal {
+public abstract class Animal {
 
     private String color;
     private double weight;
@@ -190,17 +190,15 @@ public class Animal {
         System.out.println("Running");
     }
 
-    public void angry() {
-        System.out.println("Mad animal");
-    }
-
     public void name(){
         System.out.println("WooF WooF, my name is Athena");
     }
 
-    public void animalSound(){
-        System.out.println("Animal Sounds");
+    public abstract void animalSound();
+    public void angry() {
+        System.out.println("Animal is angry");
     }
+
 
 
 }

@@ -1,10 +1,15 @@
 package AnimalRescuer;
 
-public class AppMain {
+public class AppMain{
 
     public static void main(String[] args) {
 
-        Dog dog = new Dog();
+        Dog dog = new Dog() {
+            @Override
+            public void animalSound() {
+
+            }
+        };
         dog.setColor("black");
         dog.setWeight(29);
         dog.setAgeInMonths(36);
@@ -18,7 +23,12 @@ public class AppMain {
         dog.setFavFood("Chicken");
         dog.setFavHobby("Fetch");
 
-        DogFood dogfood = new DogFood();
+        DogFood dogfood = new DogFood() {
+            @Override
+            public void animalSound() {
+
+            }
+        };
         dogfood.setFoodName("Pedigree");
         dogfood.setFoodPrice(13);
         dogfood.setFoodQuantity(8.5);
@@ -53,9 +63,9 @@ public class AppMain {
         System.out.println("Jack's speciality is " + veterinarian.getSpeciality());
         System.out.println("The dog's favourite hobby is to play " + dog.getFavHobby());
 
-        Dog Athena = new Dog();
-        Athena.setName("Bronx");
-        System.out.println(Athena.getName());
+//        Dog Athena = new Dog();
+//        Athena.setName("Bronx");
+//        System.out.println(Athena.getName());
 
         Girl Lisa = new Girl();
         Lisa.setAvailableCash(300);
@@ -69,10 +79,37 @@ public class AppMain {
         liv.setName("Lisa");
         System.out.println("Her name is " + liv.getName());
 
-        Animal myAnimal = new Animal();
-        Cat myCat = new Cat();
-        Dog myDog = new Dog();
-        Sheep mySheep = new Sheep();
+        //Abstraction
+        Animal myAnimal = new Animal() {
+            @Override
+            public void animalSound() {
+                System.out.println("Animal sounds");
+            }
+        };
+
+        Cat myCat = new Cat() {
+            @Override
+            public void animalSound() {
+                System.out.println("Meow");
+            }
+        };
+
+        Dog myDog = new Dog() {
+            @Override
+            public void animalSound() {
+                System.out.println("Doggo goes ham ham");
+            }
+        };
+
+        Sheep mySheep = new Sheep() {
+
+            @Override
+            public void animalSound() {
+                System.out.println("SHeep goes beeeh");
+            }
+        };
+
+        Dobermann myDobermann = new Dobermann();
 
         //Polymorphism
         myAnimal.animalSound();
@@ -83,6 +120,8 @@ public class AppMain {
         myCat.angry();
         myDog.angry();
         mySheep.angry();
+        myDobermann.animalSound();
+        myDobermann.angry();
     }
 }
 

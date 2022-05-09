@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Hobby extends Dog{
+public abstract class Hobby extends Dog{
 
 
 }
