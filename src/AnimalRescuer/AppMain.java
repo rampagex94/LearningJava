@@ -69,13 +69,20 @@ public class AppMain {
         liv.setName("Lisa");
         System.out.println("Her name is " + liv.getName());
 
+        Animal myAnimal = new Animal();
+        Cat myCat = new Cat();
+        Dog myDog = new Dog();
+        Sheep mySheep = new Sheep();
 
-        AmericanStanford doggo = new AmericanStanford();
-        doggo.talk();
-        girl.talk();
-        veterinarian.talk();
-        
-
+        //Polymorphism
+        myAnimal.animalSound();
+        myCat.animalSound();
+        myDog.animalSound();
+        mySheep.animalSound();
+        myAnimal.angry();
+        myCat.angry();
+        myDog.angry();
+        mySheep.angry();
     }
 }
 
