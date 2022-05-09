@@ -16,4 +16,7 @@ public class Dobermann extends Dog{
         System.out.println("Dobermann goes grrrr");
     }
 
+    public void sleep() {
+        System.out.println("ZzZzZzZZzz");
+    }
 }
