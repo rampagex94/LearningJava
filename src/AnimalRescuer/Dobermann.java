@@ -3,6 +3,11 @@ package AnimalRescuer;
 public class Dobermann extends Dog{
 
     @Override
+    public void bark() {
+        System.out.println("Dobermann barks");
+    }
+
+    @Override
     public void animalSound() {
         System.out.println("Dobbermann goes wof wof");
     }

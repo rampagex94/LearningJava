@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public abstract class Animal {
+public abstract class Animal extends AppMain{
 
     private String color;
     private double weight;

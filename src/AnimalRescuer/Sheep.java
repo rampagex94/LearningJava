@@ -2,9 +2,11 @@ package AnimalRescuer;
 
 public abstract class Sheep extends Animal {
     @Override
-    public abstract void animalSound();
 
-    public void angry() {
-        System.out.println("beeeeh stomps");
+    public abstract void animalSound();
+    public abstract void angry();
+
+    public void sleep() {
+        System.out.println("ZzzZzzzZZzz");
     }
 }
