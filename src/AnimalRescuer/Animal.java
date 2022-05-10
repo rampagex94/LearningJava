@@ -195,6 +195,7 @@ public abstract class Animal extends AppMain{
     }
 
     public abstract void animalSound();
+
     public void angry() {
         System.out.println("Animal is angry");
     }
