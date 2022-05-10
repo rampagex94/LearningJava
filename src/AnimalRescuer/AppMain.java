@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class AppMain{
+public class AppMain {
 
     public static void main(String[] args) {
 
@@ -87,7 +87,7 @@ public class AppMain{
                 System.out.println("Meow Scratch Scratch");
             }
 
-            public void purr(){
+            public void purr() {
                 System.out.println("Purr Purr");
             }
         };
@@ -105,7 +105,7 @@ public class AppMain{
                 System.out.println("Grrrr *bite bite* ");
             }
 
-            public void bark(){
+            public void bark() {
                 System.out.println("Wof Wof");
             }
         };
