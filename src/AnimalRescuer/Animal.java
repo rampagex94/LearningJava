@@ -174,24 +174,8 @@ public abstract class Animal extends AppMain{
 
 //    Getters and Setters end
 
-    public void play() {
-        System.out.println("Playing");
-    }
-
-    public void eat() {
-        System.out.println("Eating dog food");
-    }
-
     public void sleep() {
         System.out.println("zZzZzzZz");
-    }
-
-    public void run() {
-        System.out.println("Running");
-    }
-
-    public void name(){
-        System.out.println("WooF WooF, my name is Athena");
     }
 
     public abstract void animalSound();
