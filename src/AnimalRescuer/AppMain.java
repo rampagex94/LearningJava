@@ -91,6 +91,9 @@ public class AppMain {
                 System.out.println("Purr Purr");
             }
         };
+        myCat.animalSound();
+        myCat.angry();
+        myCat.sleep();
 
         Dog myDog = new Dog() {
             @Override
@@ -106,9 +109,11 @@ public class AppMain {
                 System.out.println("Wof Wof");
             }
         };
+        myDog.animalSound();
+        myDog.angry();
+        myDog.sleep();
 
         Sheep mySheep = new Sheep() {
-
             @Override
             public void animalSound() {
                 System.out.println("SHeep goes beeeh");
@@ -119,14 +124,15 @@ public class AppMain {
                 System.out.println("BEEEE *charges at you and stomps* ");
             }
         };
+        mySheep.animalSound();
+        mySheep.angry();
+        mySheep.sleep();
 
         Dobermann myDobermann = new Dobermann();
-
-        myAnimal.animalSound();
-        myCat.animalSound();
-        myAnimal.sleep();
-
-
+        myDobermann.bark();
+        myDobermann.animalSound();
+        myDobermann.angry();
+        myDobermann.sleep();
     }
 }
 
