@@ -6,10 +6,10 @@ public class ProgramJavaMain {
 
         ProgramStart ps = new ProgramStart();
         Login login = new Login();
-        if (login.isLoggedIn()) {
+
+        if (login.loginSuccessful()) {
             ps.runProgram();
         }
-
 
 
 

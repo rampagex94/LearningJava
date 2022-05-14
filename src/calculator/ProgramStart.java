@@ -3,26 +3,14 @@ package calculator;
 import calculator.Calculator;
 import calculator.Read;
 
-public class ProgramStart {
+public class ProgramStart extends MenuOptions{
 
     Calculator calc = new Calculator();
     Read read = new Read();
     LogicalOperations op = new LogicalOperations();
 
     public void printMenu(){
-        System.out.println("Hello!\n" +
-                "Please select an option:\n"+
-                "1. Sum\n"+
-                "2. Substraction\n"+
-                "3. Multiplication\n"+
-                "4. Division\n"+
-                "5. ....\n"+
-                "0. Exit\n"+
-                "\n"+
-                "Enter number:"
-
-        );
-
+        System.out.println(Messages.PRINT_MENU);
     }
 
     public boolean runMenuOption() {
@@ -30,7 +18,7 @@ public class ProgramStart {
         int option = read.getInt();
         switch (option) {
             case 0:
-                System.out.println("Goodbye");
+                System.out.println(Messages.EXIT_MESSAGE);
                 return false;
             case 1:
                 doSum();
@@ -46,7 +34,7 @@ public class ProgramStart {
                 return true;
 
             default:
-                System.out.println("Incorrect option, try again.");
+                System.out.println(Messages.INCORRECT_OPTION);
                 return true;
         }
     }
@@ -59,28 +47,5 @@ public class ProgramStart {
 
 
 
-    private void doSum(){
-        int first = read.getInt();
-        int second = read.getInt();
-        System.out.println("Sum result is: "+ calc.sum(first, second));
-    }
-
-    private void doSub(){
-        int first = read.getInt();
-        int second = read.getInt();
-        System.out.println("Substraction result is: "+ calc.sub(first, second));
-    }
-
-    private void doMul(){
-        int first = read.getInt();
-        int second = read.getInt();
-        System.out.println("Multiplication result is: "+ calc.mul(first, second));
-    }
-
-    private void doDiv() {
-        int first = read.getInt();
-        int second = read.getInt();
-        System.out.println("Division result is: " + calc.div(first, second));
-    }
 
 }
