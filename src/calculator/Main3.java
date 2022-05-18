@@ -81,13 +81,11 @@ public class Main3 {
 //        System.out.println(op.getBiggestValueFromList(op.getList())); // <- Lists ex 8
 //
 //
-//
-//
-//
-        Read read = new Read();
+          Read read = new Read();
 //        System.out.println(read.getInt());
 //        System.out.println(read.getIntsimple());
-        System.out.println(read.getList());
+//        System.out.println(read.getList());
+
 
 
     }
